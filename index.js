@@ -21,7 +21,7 @@ var count = setInterval(function() {
 });
 
 //display result
-CountdownContainer.innerHTML = `${days} + " days, " + ${hours} + "hours, "+ ${minutes} + " minutes, and " ${seconds} + " seconds left!"`
+CountdownContainer.innerHTML = `${days} + " days, " + ${hours} + "hours, "+ ${minutes} + " minutes, and " ${seconds} + " seconds left!"`;
 
     // If the count down is over, write some text 
     //if (distance < 0) {
