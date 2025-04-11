@@ -1,5 +1,7 @@
 //countdown
 
+var CountdownContainer = document.getElementById("countdown");
+
 var countDown = new Date("April 22, 2025 00:00:00").getTime()
 
 var count = setInterval(function() {
