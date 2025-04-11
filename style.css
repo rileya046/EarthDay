@@ -11,7 +11,7 @@ body {
 
 .header {
     display: flex;
-    background-color: lightblue;
+    background-color: lightgreen;
     padding: 1%;
     align-items: center;
     margin-left: -10px;
@@ -19,6 +19,7 @@ body {
     margin-top: -10px;
 }
 
+<<<<<<< HEAD
 .stats-container {
     display: flex;
 }
@@ -62,6 +63,8 @@ body {
     box-shadow: 0 0 30px lightblue;
 }
 
+=======
+>>>>>>> 79bfa488d0b2aece3d125296f68843f99b93fda1
 #button-container {
     text-align: center;
 }
