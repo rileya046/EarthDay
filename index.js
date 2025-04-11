@@ -20,8 +20,8 @@ var count = setInterval(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 });
 
-    //display result
-    //document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+//display result
+CountdownContainer.innerHTML = `${days} + " days, " + ${hours} + "hours, "+ ${minutes} + " minutes, and " ${seconds} + " seconds left!"`
 
     // If the count down is over, write some text 
     //if (distance < 0) {
