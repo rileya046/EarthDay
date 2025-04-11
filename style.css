@@ -2,11 +2,15 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #4e647f;
+    background-color: #CEF17B;
+    text-align: center;
 }
 
-#tentacles {
-    width: 50px;
+h2 {
+    font-family: "Rubik Puddles";
+    text-align: center;
+    font-size: 5vw;
+    color: #084734;
 }
 
 .header {
@@ -19,7 +23,11 @@ body {
     margin-top: -10px;
 }
 
-<<<<<<< HEAD
+img{
+    width: 30%;
+    border-radius: 15px;
+}
+
 .stats-container {
     display: flex;
 }
@@ -63,8 +71,6 @@ body {
     box-shadow: 0 0 30px lightblue;
 }
 
-=======
->>>>>>> 79bfa488d0b2aece3d125296f68843f99b93fda1
 #button-container {
     text-align: center;
 }
