@@ -6,10 +6,24 @@ body {
     text-align: center;
 }
 
+h1 {
+    font-family: "Rubik Puddles";
+    text-align: center;
+    font-size: 7vw;
+    color: #084734;
+    margin-bottom: 20px;
+}
+
 h2 {
     font-family: "Rubik Puddles";
     text-align: center;
     font-size: 5vw;
+    color: #084734;
+}
+
+p {
+    font-family: "Sour Gummy", monospace;
+    font-size: x-large;
     color: #084734;
 }
 
@@ -23,7 +37,11 @@ h2 {
     margin-top: -10px;
 }
 
-<<<<<<< HEAD
+img{
+    width: 30%;
+    border-radius: 15px;
+}
+
 .stats-container {
     display: flex;
 }
@@ -67,8 +85,6 @@ h2 {
     box-shadow: 0 0 30px lightblue;
 }
 
-=======
->>>>>>> 79bfa488d0b2aece3d125296f68843f99b93fda1
 #button-container {
     text-align: center;
 }
@@ -81,4 +97,47 @@ button {
     border-radius: 7px;
 }
 
+#countdown{
+    font-size: 30px;
+    border: 5px solid #084734;
+    padding: 1%;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 7px;
+    margin-bottom: 5%;
+    font-family: "Sour Gummy", monospace;
 
+}
+
+#countdown:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+    transition: .3s ease;
+    scale: 1.15;
+}
+
+#description-container{
+    font-size: 20px;
+    margin: 0 auto; 
+    padding: 20px;
+    width: 50%;
+}
+
+h6{
+    font-size: 20px;
+    color: #084734;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+img{
+    margin: 0 auto;
+    padding: 10px;
+}
+
+img:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+    transition: .5s ease;
+    scale: 1.15;
+}
