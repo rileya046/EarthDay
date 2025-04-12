@@ -133,6 +133,7 @@ h6{
 img{
     margin: 0 auto;
     padding: 10px;
+    border-radius: 20px;
 }
 
 img:hover{
@@ -140,4 +141,11 @@ img:hover{
     box-shadow: 0 0 30px lightblue;
     transition: .5s ease;
     scale: 1.15;
+}
+
+#earth{
+    width: 10%;
+    border-radius: 20px;
+    border: none;
+    box-shadow: none;
 }
